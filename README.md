@@ -208,7 +208,6 @@ logging.level.hello.springmvc=debug
         - 기본 값: defaultValue
 
 #### MultiValueMap
-MultiValueMap
 - MAP과 유사한데, 하나의 키에 여러 값을 받을 수 있다.
 - HTTP header, HTTP 쿼리 파라미터와 같이 하나의 키에 여러 값을 받을 때 사용한다. 
 ## 스프링 MVC - 웹 페이지 만들기
