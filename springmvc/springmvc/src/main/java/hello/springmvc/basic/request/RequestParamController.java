@@ -2,6 +2,7 @@ package hello.springmvc.basic.request;
 
 import hello.springmvc.basic.HelloData;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -79,5 +80,4 @@ public class RequestParamController {
         log.info("username = {}, age = {}", helloData.getUsername(), helloData.getAge());
         return "ok";
     }
-
 }
