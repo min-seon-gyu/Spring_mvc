@@ -496,6 +496,7 @@ HttpEntity , @RequestBody 를 사용하면 HTTP 메시지 컨버터가 HTTP 메�
 
 #### @RequestBody 요청
 - JSON 요청 HTTP 메시지 컨버터 객체
+
 #### @ResponseBody 응답
 - 객체 HTTP 메시지 컨버터 JSON 응답
 
