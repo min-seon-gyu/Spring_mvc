@@ -1,9 +1,7 @@
-# 학습시작기간 2023.03.06
+# 학습시작기간 2023.03.06()
 
 # 목차
 - [스프링 MVC - 기본 기능](#스프링-MVC---기본기능)
-- [스프링 MVC - 웹 페이지 만들기](#스프링-MVC---웹-페이지-만들기)
-
 
 ## 스프링 MVC - 기본기능
 
@@ -686,8 +684,6 @@ HandlerMethodReturnValueHandler 를 줄여서 ReturnValueHandler 라 부른다. 
 ![](https://velog.velcdn.com/images/gcael/post/1c18b317-a969-4fef-9770-11cdfb09a4bf/image.PNG)
 - 요청의 경우 @RequestBody 를 처리하는 ArgumentResolver 가 있고, HttpEntity 를 처리하는 ArgumentResolver 가 있다. 이 ArgumentResolver 들이 HTTP 메시지 컨버터를 사용해서 필요한 객체를 생성하는 것이다.
 - 응답의 경우 @ResponseBody 와 HttpEntity 를 처리하는 ReturnValueHandler 가 있다. 그리고 여기에서 HTTP 메시지 컨버터를 호출해서 응답 결과를 만든다.
-
-## 스프링 MVC - 웹 페이지 만들기
 
 _참고 문서 및 링크_
 - 스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술(김영한)
